@@ -5,15 +5,18 @@ Repository for code related to querying the immigration dataset from a aws s3 bu
 
 Data is hosted on AWS S3 for easy programmatic access with built-in caching.
 
-## Dataset Overview
-
-- **Total Articles**: 126,324
-- **Files**: 100 JSONL files (articles_000.jsonl - articles_099.jsonl)
-- **Size**: ~2.8GB
-- **Date Range**: 2023-2025
-- **Sources**: Major news outlets (CNN, Fox News, Breitbart, Washington Post, etc.)
-
 ## Quick Start
+
+**Team member setup:**
+git clone https://github.com/kevinbarcenasmtz/immigration-discourse-dataset.git
+cd immigration-discourse-dataset
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+source setup_aws.sh  # Enter AWS credentials
+
+**Start using the library:**
+python examples/01_basic_loading.py
 
 ### 1. Setup
 
