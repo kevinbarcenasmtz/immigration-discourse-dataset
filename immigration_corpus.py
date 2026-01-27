@@ -56,10 +56,10 @@ def load_data(
     _check_aws_credentials()
 
     if files is None:
-        files = range(100)  # type: ignore
+        files = range(100) # type: ignore
 
     dfs = []
-    for i in files:  # type: ignore
+    for i in files: # type: ignore
         cache_key = f"articles_{i:03d}"
 
         # Check cache
