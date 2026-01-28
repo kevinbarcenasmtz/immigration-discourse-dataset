@@ -8,12 +8,13 @@ Data is hosted on AWS S3 for easy programmatic access with built-in caching.
 ## Quick Start
 
 **Team member setup:**
-git clone https://github.com/kevinbarcenasmtz/immigration-discourse-dataset.git
-cd immigration-discourse-dataset
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-source setup_aws.sh  # Enter AWS credentials
+
+- git clone https://github.com/kevinbarcenasmtz/immigration-discourse-dataset.git
+- cd immigration-discourse-dataset
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- source setup_aws.sh  # Enter AWS credentials
 
 **Start using the library:**
 python examples/01_basic_loading.py
