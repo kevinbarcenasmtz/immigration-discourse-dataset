@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "immigration-discourse-dataset"
 version = "0.1.0"
-description= "Immigration discourse dataset - access library for news articles"
+description = "Immigration discourse dataset - access library for news articles"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    {name = "Kevin Barcenas-Martinez", "Nitin Sudarsanam"}
+    {name = "Kevin Barcenas-Martinez"},
+    {name = "Nitin Sudarsanam"}
 ]
 dependencies = [
     "pandas>=2.0.0",
@@ -31,7 +32,7 @@ Homepage = "https://github.com/kevinbarcenasmtz/immigration-discourse-dataset"
 Repository = "https://github.com/kevinbarcenasmtz/immigration-discourse-dataset"
 
 [tool.setuptools]
-packages = ["immigration_discourse_dataset"]
+packages = ["immigration_corpus"]
 
 [tool.setuptools.package-dir]
-immigration_discourse_dataset = ".'
+immigration_corpus = "."
