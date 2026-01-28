@@ -1,8 +1,5 @@
 # Immigration Discourse Dataset
 Repository for code related to querying the immigration dataset from a aws s3 bucket. News-scraper is a separate repo that did all the scraping for the dataset
-
-~126,000 news articles about immigration from GDELT-indexed sources (2023-2025).
-
 Data is hosted on AWS S3 for easy programmatic access with built-in caching.
 
 ## Quick Start
