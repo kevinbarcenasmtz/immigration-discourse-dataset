@@ -21,10 +21,11 @@ __pycache__/
 data/
 output/
 
-# AWS credentials never commit
+# AWS credentials - NEVER COMMIT THESE!
 .aws/
 credentials.csv
 *.pem
+aws_config.py  # <- Team members' credential files
 
 # OS
 .DS_Store
