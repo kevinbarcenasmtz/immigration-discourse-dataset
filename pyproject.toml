@@ -33,6 +33,3 @@ Repository = "https://github.com/kevinbarcenasmtz/immigration-discourse-dataset"
 
 [tool.setuptools]
 packages = ["immigration_corpus"]
-
-[tool.setuptools.package-dir]
-immigration_corpus = "."
